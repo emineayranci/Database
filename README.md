@@ -6,6 +6,7 @@ Program.c dosyası sonsuz döngüde çalışarak kullanıcıdan sorgu alıyor. S
 
 Program.c dosyasında son olarak kullanıcıya “sorgu sonucu kaydedilsin mi?e/h” diye bir soru soruluyor ve cevap evet ise programdan fork->exec ile kaydet.c programı çalışıyor. Pipe ile kaydedilecek veri “kaydet.c” programına gönderiliyor. Kaydet.c programı gelen veriyi “sonuc.txt” dosyasına kaydediyor.
 
+<img src="https://github.com/emineayranci/Database/blob/main/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%201.PNG" width="200">
 ![alt text](https://github.com/emineayranci/Database/blob/main/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%201.PNG | width=100)
 
 ![alt text](https://github.com/emineayranci/Database/blob/main/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202.PNG | width=100)
